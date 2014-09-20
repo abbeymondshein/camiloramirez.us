@@ -1,0 +1,192 @@
+/*
+	Screen CSS
+	Copyright (c) 2013 by SPOILED MILK
+	http://www.spoiledmilk.com
+
+	Additional Modifications by Abbey Mondshein
+*/
+
+
+/* clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+}
+
+/* HTML ELEMENTS....................................... */
+body { background: white; text-align: left; }
+body a {
+	color: black;
+}
+
+
+/* LAYOUT ............................................. */
+
+
+
+/* Main ................ */
+main { margin: 20px auto; max-width: 1000px; background-color: white; }
+
+
+/* main content */
+.main_content { float: right; max-width: 800px; }
+
+/* Footer .............. */
+footer { background-color: #FFF; height: 200px; width: 100%; }
+
+
+/* aside */
+aside { float: left; max-width: 300px;}
+.inside { padding: 10px; }
+#sidebar.sticky { float: none; position: fixed; top: 20px; z-index: 6; left: auto; }
+
+/* floating-sidebar properties */
+.floating-sidebar {
+	color: black;
+	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 13px;
+	line-height: 110%;
+}
+
+/*.floating-sidebar li {
+	line-height: 130%;
+}
+*/
+/* page-specific additions */
+.top-menu {
+	line-height: 140%;
+	text-transform: uppercase;
+}
+.sub-menu {	
+	text-decoration: none;
+	line-height: 8px; 
+	color: black;
+	text-indent: 30px;
+	display: inline-block;
+}
+
+/* alter name styling */
+.name a {
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.name {
+	margin-bottom: 20px;
+}
+
+.design.sub-menu {
+	font-style: italic;
+}
+
+.lifestyle.sub-menu {
+	font-family: arial;
+	font-style: italic;
+}
+.photos img {
+	width: 100%;
+	padding-top: 20px;
+}
+
+.photos p {
+	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.explanation {
+	display: inline-block;
+	float: left;
+	width: 100%;
+}
+.explanation p {
+	margin-top: 12%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 40%;
+	text-align: center;
+	font-family: 'Special Elite', Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 16px;
+	padding: 5px;
+}
+.gearhead img {
+	width: 70%;
+}
+
+.photos p a {
+	font-size: 10px;
+}
+
+
+/* floating box bottom left */
+
+#bottomleft {
+	position: absolute;
+	width:115px;
+	height:20px;
+	left:254px;
+	bottom:10px;  
+    padding:16px;
+    background:#FFFFFF;  
+    border:1px solid #000;
+    text-align: center;
+}
+
+
+#bottomleft a {
+	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	font-size: 14px;
+	text-decoration: none;
+
+}
+
+/*test nav*/
+
+#test-nav {
+    float: left;
+    width: 280px;
+    /*border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-left: 1px solid #999;*/
+}
+#test-nav li a {
+    display: inline-block;
+/*    padding: 10px 15px;
+*/    /*background: #ccc;*/
+    /*border-top: 1px solid #eee;
+    border-bottom: 1px solid #999;*/
+/*    text-decoration: none;
+*/    color: #000;
+}
+#test-nav li a:hover, #nav li a.active {
+    /*background: #999;*/
+    color: #ccc;
+}
+#test-nav li ul {
+    display: none; // used to hide sub-menus
+}
+#test-nav li ul li a {
+/*    padding: 10px 25px;
+*/    /*background: #ececec;*/
+    /*border-bottom: 1px dotted #ccc;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
